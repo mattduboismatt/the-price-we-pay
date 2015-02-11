@@ -1,0 +1,8 @@
+#nav-menu {
+  width: 100%;
+  text-align: center;
+}
+
+#nav-menu h2, a {
+  margin: 0;
+}

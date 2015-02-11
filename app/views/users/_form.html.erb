@@ -12,42 +12,33 @@
   <% end %>
 
   <div class="field">
-    <%= f.label :email %><br>
-    <%= f.text_field :email %>
+    <%= f.text_field :email, placeholder: 'Email'%>
   </div>
   <div class="field">
-    <%= f.label :password_digest %><br>
-    <%= f.text_field :password_digest %>
+    <%= f.text_field :password_digest, placeholder: 'Password' %>
   </div>
   <div class="field">
-    <%= f.label :first_name %><br>
-    <%= f.text_field :first_name %>
+    <%= f.text_field :first_name, placeholder: 'First Name' %>
   </div>
   <div class="field">
-    <%= f.label :last_name %><br>
-    <%= f.text_field :last_name %>
+    <%= f.text_field :last_name, placeholder: 'Last Name' %>
   </div>
   <div class="field">
-    <%= f.label :address_line_1 %><br>
-    <%= f.text_field :address_line_1 %>
+    <%= f.text_field :address_line_1, placeholder: 'Address Line 1' %>
   </div>
   <div class="field">
-    <%= f.label :address_line_2 %><br>
-    <%= f.text_field :address_line_2 %>
+    <%= f.text_field :address_line_2, placeholder: 'Address Line 2' %>
   </div>
   <div class="field">
-    <%= f.label :city %><br>
-    <%= f.text_field :city %>
+    <%= f.text_field :city, placeholder: 'City' %>
   </div>
   <div class="field">
-    <%= f.label :state %><br>
-    <%= f.text_field :state %>
+    <%= f.text_field :state, placeholder: 'State' %>
   </div>
   <div class="field">
-    <%= f.label :zip_code %><br>
-    <%= f.text_field :zip_code %>
+    <%= f.text_field :zip_code, placeholder: 'Zip Code' %>
   </div>
   <div class="actions">
-    <%= f.submit %>
+    <%= f.submit 'Submit' %>
   </div>
 <% end %>
