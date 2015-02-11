@@ -5,6 +5,8 @@ class CreateItems < ActiveRecord::Migration
       t.text :description
       t.binary :image
       t.integer :price
+      t.references :category
+      t.references :company
 
       t.timestamps null: false
     end
